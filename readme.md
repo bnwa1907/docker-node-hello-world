@@ -23,6 +23,7 @@ First, checkout this project locally and then follow these steps:
 
 
 
+
 ## Notes & Tips
 
 - If you make changes to your application, you will need to rebuild your image and restart your container.
