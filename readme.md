@@ -22,7 +22,8 @@ Part #1: Initial Setup & Planning
 
 \- Create a basic Dockerized application (e.g., a simple web app).
 
-![Screenshot from 2023-10-19 16-25-44](https://github.com/user-attachments/assets/13f8c6b6-5400-4897-b8b7-e8ba530a9fe9)
+![Screenshot from 2024-10-18 00-43-41](https://github.com/user-attachments/assets/1e30962d-d1c0-4304-9d8d-83f4e68de239)
+![Screenshot from 2024-10-18 00-44-10](https://github.com/user-attachments/assets/251a2e4f-bfdb-488d-b289-a313e9a8469b)
 
 
 \- Set up Ansible for configuration management.
@@ -32,24 +33,22 @@ Part #2: Jenkins & CI Integration
 \- Create Jenkins jobs for building the Dockerized application.
 
 \- Integrate a version control system (GitHub/GitLab) with Jenkins.
+![Screenshot from 2024-10-18 01-32-04](https://github.com/user-attachments/assets/9f675e8e-ee2d-4883-8db2-21b229adb78c)
+![Screenshot from 2024-10-18 01-32-24](https://github.com/user-attachments/assets/6695beba-51ec-4910-9879-1b8a8df642b1)
 
-![](vertopal_3148ad1ee9bc45b6bd3feef8cf8f84b9/df7deea362248a814986457d02249d969b26efa1.png){width="6.5in"
-height="2.6458333333333335in"}
 
-![](vertopal_3148ad1ee9bc45b6bd3feef8cf8f84b9/3c0f897ffb4900a86c7166b1af87eaf35d3c7e6c.png){width="5.77083552055993in"
-height="6.5in"}
 
 \- Add automated testing (e.g., unit tests) to Jenkins.
 
 \- Set up notifications (email or Slack) for pipeline updates.
+![Screenshot from 2024-10-18 07-28-35](https://github.com/user-attachments/assets/95dabf6d-fddd-442f-919d-2489da85e10c)
+![Screenshot from 2024-10-17 23-23-07](https://github.com/user-attachments/assets/35558e0e-cc39-48ba-99f1-d7a52edf404a)
+![Screenshot from 2024-10-17 23-23-16](https://github.com/user-attachments/assets/5e487e65-349c-4f2e-af99-354e17e0c3ee)
+![Screenshot from 2024-10-17 23-23-23](https://github.com/user-attachments/assets/0fcdb43b-1ecf-41c3-a959-ee1d3ebb536f)
+![Screenshot from 2024-10-17 23-23-30](https://github.com/user-attachments/assets/e0bacf83-7386-42ad-be75-a08ac5728b57)
+![Screenshot from 2024-10-18 07-44-29](https://github.com/user-attachments/assets/e35cc5c2-5a0f-4156-89ec-bbaed8c5ea67)
 
-![](vertopal_3148ad1ee9bc45b6bd3feef8cf8f84b9/09b99882fd1bdffc08b5c7afce4569094bd1704a.png){width="6.5in"
-height="3.84375in"}![](vertopal_3148ad1ee9bc45b6bd3feef8cf8f84b9/b146a856b431c947c48aa167c2c054473dfd7e58.png){width="6.5in"
-height="2.09375in"}![](vertopal_3148ad1ee9bc45b6bd3feef8cf8f84b9/923800df1951cbefa2cecf5b3eb2ee2352b99afb.png){width="6.5in"
-height="2.8854166666666665in"}![](vertopal_3148ad1ee9bc45b6bd3feef8cf8f84b9/f20367edde8e38e7ea22df3acb42d758000a8661.png){width="6.5in"
-height="2.9895833333333335in"}![](vertopal_3148ad1ee9bc45b6bd3feef8cf8f84b9/ff2750ecda2dac375d2229e9d5694eecf546b81a.png){width="6.5in"
-height="2.7083333333333335in"}![](vertopal_3148ad1ee9bc45b6bd3feef8cf8f84b9/f4510e5261d728a1f36c447e4ef7e803729e5275.png){width="6.510416666666667in"
-height="3.3541666666666665in"}
+
 
 Part#3: Docker & Deployment
 
@@ -59,15 +58,13 @@ Part#3: Docker & Deployment
 environment.
 
 \- Test the deployment process with Docker and Ansible.
+![image](https://github.com/user-attachments/assets/e720cd2d-e574-438b-bb79-100f96c3efd1)
+![image](https://github.com/user-attachments/assets/bef0a13c-4620-4508-81d4-b553cfa94e68)
+![image](https://github.com/user-attachments/assets/416e6652-f474-430f-a91c-0f5bd7a43efe)
+![image](https://github.com/user-attachments/assets/59467f51-ebbc-440b-82ff-21b6528bc98c)
+![image](https://github.com/user-attachments/assets/5d1de79b-d763-422f-a808-2a5c8b29a4a1)
 
-![](vertopal_3148ad1ee9bc45b6bd3feef8cf8f84b9/f20367edde8e38e7ea22df3acb42d758000a8661.png){width="6.5in"
-height="3.0729166666666665in"}
 
-![](vertopal_3148ad1ee9bc45b6bd3feef8cf8f84b9/348ad7b30ebca625c107e9ed4d708a9f556aa4c8.png){width="6.5in"
-height="3.0625in"}![](vertopal_3148ad1ee9bc45b6bd3feef8cf8f84b9/57ece5364febd27cf8378936a39e4d63df9b75b2.png){width="6.5in"
-height="1.1145833333333333in"}![](vertopal_3148ad1ee9bc45b6bd3feef8cf8f84b9/38be105daf775126c4ed365898096779309c7094.png){width="6.5in"
-height="1.9583333333333333in"}![](vertopal_3148ad1ee9bc45b6bd3feef8cf8f84b9/ce74993ccfffd9e9cd75eed503b6b8d39b284d2e.png){width="6.5in"
-height="2.1145833333333335in"}
 
 Part#4: CI/CD Refinement & Final Testing
 
@@ -75,10 +72,10 @@ Part#4: CI/CD Refinement & Final Testing
 
 \- Conduct full tests of the CI/CD pipeline from code commit to
 deployment.
+![image](https://github.com/user-attachments/assets/d156c90f-2e13-49be-9fd2-1c13a3538fe1)
+![image](https://github.com/user-attachments/assets/9c47d774-b46a-448f-ba0d-04286f80fd26)
+![image](https://github.com/user-attachments/assets/6fdee087-65cc-4948-a964-31eb6e7d15b7)
+![image](https://github.com/user-attachments/assets/48247803-0d94-4329-8976-875718fba4d4)
+![image](https://github.com/user-attachments/assets/d7872bfb-528c-49a6-80aa-f66d0066cf15)
 
-![](vertopal_3148ad1ee9bc45b6bd3feef8cf8f84b9/4315d685ade1540f05554dac1e3cbbee98defe3b.png){width="6.5in"
-height="4.239583333333333in"}![](vertopal_3148ad1ee9bc45b6bd3feef8cf8f84b9/ec980c109db0c42060940eebe69fc14d907c28da.png){width="4.604166666666667in"
-height="2.78125in"}![](vertopal_3148ad1ee9bc45b6bd3feef8cf8f84b9/57ece5364febd27cf8378936a39e4d63df9b75b2.png){width="6.5in"
-height="1.21875in"}![](vertopal_3148ad1ee9bc45b6bd3feef8cf8f84b9/38be105daf775126c4ed365898096779309c7094.png){width="6.5in"
-height="2.2708333333333335in"}![](vertopal_3148ad1ee9bc45b6bd3feef8cf8f84b9/ce74993ccfffd9e9cd75eed503b6b8d39b284d2e.png){width="6.5in"
-height="2.71875in"}
+
