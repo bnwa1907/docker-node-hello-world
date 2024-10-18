@@ -1,49 +1,87 @@
-# Docker + Node "Hello World" Example
+Automated Deployment Pipeline with Jenkins and Docker
 
-This repository gives you a quick introduction to getting docker running with Node. It is intended for the Docker beginner.
+Overview
 
-You can adapt the same approach to other languages but I chose Node because it's what I use most often.
+Create a CI/CD pipeline to automate the build, testing, and deployment
+of a sample application using Jenkins for continuous integration, Docker
+for containerization, and Ansible for configuration management.
 
+Technologies Used:
 
-## Setup
+\- Jenkins
 
-First, checkout this project locally and then follow these steps:
+\- Docker
 
-0. Go through the Docker [installation](https://docs.docker.com/installation/) and [getting started guide](https://docs.docker.com/mac/started/) before you start.
-1. Install the [Docker Toolbox](https://www.docker.com/docker-toolbox).
-2. Start a "Quickstart Terminal" session (see the getting started guide).
-3. Build the Docker image: `docker build -t hello-world .`
-4. Run the image in a container: `docker run -d -p 4001:4000 hello-world`
-  - The `-d` flag says to run the container in the background (daemon mode).
-  - The `-p` flag maps port 4000 from the container to port 4001 on the docker machine.
-5. View your new container: `docker ps -a`
-6. Check the logs for your container: `docker logs <container-id>`
-7. Check the port of the container: `docker port <container-id>`
-8. Open the app running on the docker machine: `open http://$(docker-machine ip default):4001`
+\- Ansible
 
+\- Cloud environments (AWS)
 
+Part #1: Initial Setup & Planning
 
+\- Installing Jenkins and Docker on a local or cloud server.
 
-## Notes & Tips
+\- Create a basic Dockerized application (e.g., a simple web app).
 
-- If you make changes to your application, you will need to rebuild your image and restart your container.
-- The `docker-machine` command controls the virtual machine that is running Docker on your machine.
-- View logs for a docker container: `docker logs <container-id>`
-- List the running containers: `docker ps -a`
-- List all local images: `docker images`
-- Remove an image: `docker rmi <image-id>`
-- Remove a container: `docker rm <container-id>`
+![](vertopal_3148ad1ee9bc45b6bd3feef8cf8f84b9/8c5d889173eb9f6359a72f3ba82f74035351e808.png){width="6.5in"
+height="3.46875in"}
 
+![](vertopal_3148ad1ee9bc45b6bd3feef8cf8f84b9/6d74e670354a713362c79e2417fa82f53f991745.png){width="6.5in"
+height="3.1770833333333335in"}
 
-## Further Reading
+\- Set up Ansible for configuration management.
 
-- Checkout [Tutum](http://tutum.co) for hosting private docker registries and managing your infrastructure.
-  - Check out the [Tutum CLI](https://github.com/tutumcloud/cli): `brew install tutum`
-- Check out this [Docker + Tutum hello world repo](https://github.com/tutumcloud/hello-world)
+Part #2: Jenkins & CI Integration
 
+\- Create Jenkins jobs for building the Dockerized application.
 
+\- Integrate a version control system (GitHub/GitLab) with Jenkins.
 
+![](vertopal_3148ad1ee9bc45b6bd3feef8cf8f84b9/df7deea362248a814986457d02249d969b26efa1.png){width="6.5in"
+height="2.6458333333333335in"}
 
-## Credits and License
+![](vertopal_3148ad1ee9bc45b6bd3feef8cf8f84b9/3c0f897ffb4900a86c7166b1af87eaf35d3c7e6c.png){width="5.77083552055993in"
+height="6.5in"}
 
-Put together by [Dana Woodman](mailto:dana@danawoodman.com) and released under the MIT license. Have fun!
+\- Add automated testing (e.g., unit tests) to Jenkins.
+
+\- Set up notifications (email or Slack) for pipeline updates.
+
+![](vertopal_3148ad1ee9bc45b6bd3feef8cf8f84b9/09b99882fd1bdffc08b5c7afce4569094bd1704a.png){width="6.5in"
+height="3.84375in"}![](vertopal_3148ad1ee9bc45b6bd3feef8cf8f84b9/b146a856b431c947c48aa167c2c054473dfd7e58.png){width="6.5in"
+height="2.09375in"}![](vertopal_3148ad1ee9bc45b6bd3feef8cf8f84b9/923800df1951cbefa2cecf5b3eb2ee2352b99afb.png){width="6.5in"
+height="2.8854166666666665in"}![](vertopal_3148ad1ee9bc45b6bd3feef8cf8f84b9/f20367edde8e38e7ea22df3acb42d758000a8661.png){width="6.5in"
+height="2.9895833333333335in"}![](vertopal_3148ad1ee9bc45b6bd3feef8cf8f84b9/ff2750ecda2dac375d2229e9d5694eecf546b81a.png){width="6.5in"
+height="2.7083333333333335in"}![](vertopal_3148ad1ee9bc45b6bd3feef8cf8f84b9/f4510e5261d728a1f36c447e4ef7e803729e5275.png){width="6.510416666666667in"
+height="3.3541666666666665in"}
+
+Part#3: Docker & Deployment
+
+\- Push Docker images to Docker Hub or a private registry.
+
+\- Write Ansible playbooks for deploying the application to a cloud
+environment.
+
+\- Test the deployment process with Docker and Ansible.
+
+![](vertopal_3148ad1ee9bc45b6bd3feef8cf8f84b9/f20367edde8e38e7ea22df3acb42d758000a8661.png){width="6.5in"
+height="3.0729166666666665in"}
+
+![](vertopal_3148ad1ee9bc45b6bd3feef8cf8f84b9/348ad7b30ebca625c107e9ed4d708a9f556aa4c8.png){width="6.5in"
+height="3.0625in"}![](vertopal_3148ad1ee9bc45b6bd3feef8cf8f84b9/57ece5364febd27cf8378936a39e4d63df9b75b2.png){width="6.5in"
+height="1.1145833333333333in"}![](vertopal_3148ad1ee9bc45b6bd3feef8cf8f84b9/38be105daf775126c4ed365898096779309c7094.png){width="6.5in"
+height="1.9583333333333333in"}![](vertopal_3148ad1ee9bc45b6bd3feef8cf8f84b9/ce74993ccfffd9e9cd75eed503b6b8d39b284d2e.png){width="6.5in"
+height="2.1145833333333335in"}
+
+Part#4: CI/CD Refinement & Final Testing
+
+\- Refine Jenkins jobs for efficiency (e.g., parallel stages, caching).
+
+\- Conduct full tests of the CI/CD pipeline from code commit to
+deployment.
+
+![](vertopal_3148ad1ee9bc45b6bd3feef8cf8f84b9/4315d685ade1540f05554dac1e3cbbee98defe3b.png){width="6.5in"
+height="4.239583333333333in"}![](vertopal_3148ad1ee9bc45b6bd3feef8cf8f84b9/ec980c109db0c42060940eebe69fc14d907c28da.png){width="4.604166666666667in"
+height="2.78125in"}![](vertopal_3148ad1ee9bc45b6bd3feef8cf8f84b9/57ece5364febd27cf8378936a39e4d63df9b75b2.png){width="6.5in"
+height="1.21875in"}![](vertopal_3148ad1ee9bc45b6bd3feef8cf8f84b9/38be105daf775126c4ed365898096779309c7094.png){width="6.5in"
+height="2.2708333333333335in"}![](vertopal_3148ad1ee9bc45b6bd3feef8cf8f84b9/ce74993ccfffd9e9cd75eed503b6b8d39b284d2e.png){width="6.5in"
+height="2.71875in"}
