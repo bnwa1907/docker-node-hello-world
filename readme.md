@@ -22,11 +22,8 @@ Part #1: Initial Setup & Planning
 
 \- Create a basic Dockerized application (e.g., a simple web app).
 
-![](vertopal_3148ad1ee9bc45b6bd3feef8cf8f84b9/8c5d889173eb9f6359a72f3ba82f74035351e808.png){width="6.5in"
-height="3.46875in"}
+![Screenshot from 2023-10-19 16-25-44](https://github.com/user-attachments/assets/13f8c6b6-5400-4897-b8b7-e8ba530a9fe9)
 
-![](vertopal_3148ad1ee9bc45b6bd3feef8cf8f84b9/6d74e670354a713362c79e2417fa82f53f991745.png){width="6.5in"
-height="3.1770833333333335in"}
 
 \- Set up Ansible for configuration management.
 
