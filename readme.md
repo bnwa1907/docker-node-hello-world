@@ -6,6 +6,9 @@ Create a CI/CD pipeline to automate the build, testing, and deployment
 of a sample application using Jenkins for continuous integration, Docker
 for containerization, and Ansible for configuration management.
 
+![Uploading image.png…]()
+
+
 Technologies Used:
 
 \- Jenkins
