@@ -1,4 +1,4 @@
-Automated Deployment Pipeline with Jenkins and Docker
+![image](https://github.com/user-attachments/assets/00e12689-6012-4504-825c-48171f371ef0)Automated Deployment Pipeline with Jenkins and Docker
 
 Overview
 
