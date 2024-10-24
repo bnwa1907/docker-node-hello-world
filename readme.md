@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/00e12689-6012-4504-825c-48171f371ef0)Automated Deployment Pipeline with Jenkins and Docker
+Automated Deployment Pipeline with Jenkins and Docker
 
 Overview
 
@@ -6,8 +6,7 @@ Create a CI/CD pipeline to automate the build, testing, and deployment
 of a sample application using Jenkins for continuous integration, Docker
 for containerization, and Ansible for configuration management.
 
-![Uploading image.png…]()
-
+![image](https://github.com/user-attachments/assets/00e12689-6012-4504-825c-48171f371ef0)
 
 Technologies Used:
 
