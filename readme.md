@@ -1,4 +1,4 @@
-Automated Deployment Pipeline with Jenkins and Docker 
+Automated Deployment Pipeline with Jenkins and Docker  
 
 Overview
 
